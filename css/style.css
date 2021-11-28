@@ -1,0 +1,186 @@
+html,body{
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.background-imag{
+    background: url(../images/banner.jpg) no-repeat 0px 0px;
+    background-size: cover;
+	background-attachment:fixed;
+    display: block;
+    height:100vh;
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: -1;
+    top:0em;
+}
+.title{
+    color:rgba(255, 255, 255, 0.75);
+    float:right;
+    margin-left: 27em;
+}
+
+.title h1{
+    font-family: 'Exo', sans-serif;
+}
+
+.main{
+    margin:1em 0 0 1em;
+}
+.content{
+    float:left;
+    padding:1em 2.5em 1em 1.5em;
+    position:fixed;
+    left:32%;
+    width:35%;
+    z-index: 2;
+    margin: 3em 1em 2em 1em;
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.content h3{
+     font-family: 'Exo', sans-serif;
+}
+
+
+.container{
+    /*filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height:100vh;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    background-color: white;*/
+    padding:5px;
+    z-index: 2;
+    margin: 7em 0 0 0em;
+    }
+
+.imag img {
+    border: 3px solid #20c1d2;
+    border-radius: 55px;
+    margin-left: 1em;
+}
+
+.col p{
+    text-align: justify;
+    text-justify: auto;
+}
+
+
+/*-- social icons --*/
+.cntct_grp li {
+    display: inline;
+    margin: 0 2px;
+}
+
+.social-network a.icoMail:hover {
+    background-color: #F2B50F;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+
+.social-network a.icoInsta:hover {
+    background-color: #8a3ab9;
+}
+
+.social-network a.icoQuora:hover {
+    background-color: #AA2200;
+}
+
+.social-network a.icoGithub:hover {
+    background-color: #767676;
+}
+
+.social-network a.icoMail:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoGithub:hover i,
+.social-network a.icoInsta:hover i, .social-network a.icoQuora:hover i {
+    color: #fff;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    /*margin:0 auto 0 auto;*/
+    margin: 20px 5px 0 5px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 10px;
+    text-align: center;
+}
+
+/*
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+*/
+.social-circle i {
+    color: black;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+/*-- icons end --*/
+
+/*
+.content {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    top: 10px;
+    left: 0;
+    position: fixed;
+    margin-left: 20px;
+    margin-right: 20px;
+    right: 0;
+    z-index: 2;
+    padding: 0 10px;
+}*/
